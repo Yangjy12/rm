@@ -1,0 +1,97 @@
+[DEBUG][24-01-30][freemarker.cache]Couldn't find template in cache for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml_zh_CN.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml_zh.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml.ftl"): Found
+ [DEBUG][24-01-30][freemarker.cache]Loading template for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/mapper.xml.ftl"
+ [DEBUG][24-01-30][freemarker.cache]Couldn't find template in cache for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java_zh_CN.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java_zh.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java.ftl"): Found
+ [DEBUG][24-01-30][freemarker.cache]Loading template for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/entity.java.ftl"
+ [DEBUG][24-01-30][freemarker.cache]Couldn't find template in cache for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java_zh_CN.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java_zh.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java.ftl"): Found
+ [DEBUG][24-01-30][freemarker.cache]Loading template for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/mapper.java.ftl"
+ [DEBUG][24-01-30][freemarker.cache]Couldn't find template in cache for "templates/service.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java_zh_CN.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java_zh.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java.ftl"): Found
+ [DEBUG][24-01-30][freemarker.cache]Loading template for "templates/service.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/service.java.ftl"
+ [DEBUG][24-01-30][freemarker.cache]Couldn't find template in cache for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh_CN.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java.ftl"): Found
+ [DEBUG][24-01-30][freemarker.cache]Loading template for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/serviceImpl.java.ftl"
+ [DEBUG][24-01-30][freemarker.cache]Couldn't find template in cache for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java_zh_CN.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java_zh.ftl"): Not found
+ [DEBUG][24-01-30][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java.ftl"): Found
+ [DEBUG][24-01-30][freemarker.cache]Loading template for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/controller.java.ftl"
+ [DEBUG][24-01-30][freemarker.cache]"templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+ [DEBUG][24-01-30][freemarker.cache]"templates/entity.java.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+ [DEBUG][24-01-30][freemarker.cache]"templates/mapper.java.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+ [DEBUG][24-01-30][freemarker.cache]"templates/service.java.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+ [DEBUG][24-01-30][freemarker.cache]"templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+ [DEBUG][24-01-30][freemarker.cache]"templates/controller.java.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+ [DEBUG][24-02-01][freemarker.cache]Couldn't find template in cache for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml_zh_CN.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml_zh.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml.ftl"): Found
+ [DEBUG][24-02-01][freemarker.cache]Loading template for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/mapper.xml.ftl"
+ [DEBUG][24-02-01][freemarker.cache]Couldn't find template in cache for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java_zh.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java.ftl"): Found
+ [DEBUG][24-02-01][freemarker.cache]Loading template for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/entity.java.ftl"
+ [DEBUG][24-02-01][freemarker.cache]Couldn't find template in cache for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java_zh.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java.ftl"): Found
+ [DEBUG][24-02-01][freemarker.cache]Loading template for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/mapper.java.ftl"
+ [DEBUG][24-02-01][freemarker.cache]Couldn't find template in cache for "templates/service.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java_zh.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java.ftl"): Found
+ [DEBUG][24-02-01][freemarker.cache]Loading template for "templates/service.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/service.java.ftl"
+ [DEBUG][24-02-01][freemarker.cache]Couldn't find template in cache for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java.ftl"): Found
+ [DEBUG][24-02-01][freemarker.cache]Loading template for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/serviceImpl.java.ftl"
+ [DEBUG][24-02-01][freemarker.cache]Couldn't find template in cache for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java_zh.ftl"): Not found
+ [DEBUG][24-02-01][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java.ftl"): Found
+ [DEBUG][24-02-01][freemarker.cache]Loading template for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/controller.java.ftl"
+ [DEBUG][24-02-02][freemarker.cache]Couldn't find template in cache for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml_zh_CN.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml_zh.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.xml.ftl"): Found
+ [DEBUG][24-02-02][freemarker.cache]Loading template for "templates/mapper.xml.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/mapper.xml.ftl"
+ [DEBUG][24-02-02][freemarker.cache]Couldn't find template in cache for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java_zh.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/entity.java.ftl"): Found
+ [DEBUG][24-02-02][freemarker.cache]Loading template for "templates/entity.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/entity.java.ftl"
+ [DEBUG][24-02-02][freemarker.cache]Couldn't find template in cache for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java_zh.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/mapper.java.ftl"): Found
+ [DEBUG][24-02-02][freemarker.cache]Loading template for "templates/mapper.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/mapper.java.ftl"
+ [DEBUG][24-02-02][freemarker.cache]Couldn't find template in cache for "templates/service.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java_zh.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/service.java.ftl"): Found
+ [DEBUG][24-02-02][freemarker.cache]Loading template for "templates/service.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/service.java.ftl"
+ [DEBUG][24-02-02][freemarker.cache]Couldn't find template in cache for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java_zh.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/serviceImpl.java.ftl"): Found
+ [DEBUG][24-02-02][freemarker.cache]Loading template for "templates/serviceImpl.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/serviceImpl.java.ftl"
+ [DEBUG][24-02-02][freemarker.cache]Couldn't find template in cache for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java_zh_CN.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java_zh.ftl"): Not found
+ [DEBUG][24-02-02][freemarker.cache]TemplateLoader.findTemplateSource("templates/controller.java.ftl"): Found
+ [DEBUG][24-02-02][freemarker.cache]Loading template for "templates/controller.java.ftl"("zh_CN", UTF-8, parsed) from "jar:file:/C:/Users/yangj/.m2/repository/com/baomidou/mybatis-plus-generator/3.4.1/mybatis-plus-generator-3.4.1.jar!/templates/controller.java.ftl"
+ 

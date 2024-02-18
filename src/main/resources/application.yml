@@ -1,0 +1,38 @@
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/goods_rm?serverTimezone=Asia/Shanghai&userUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  devtools:
+    restart:
+      enabled: true #设置开启热部署
+  freemarker:
+    cache: false #页面不加载缓存，修改即使生效
+# Java结果集对象中自动转换成驼峰命名参数
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.example.rm.entity
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+# 访问端口
+server:
+  port: 8099
+logging:
+  level:
+    root: info
+    com.yhao.fileServer: debug
+
+alipay:
+  appId: 9021000134650353
+  appPrivateKey: MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDicw9qiPBuqYFEMqvUw81JvKsvOkw7HKDXprO9n03pV8VlxLuK6gCYEFD8X+zZ8eTG0iQQXtny5noEeogcneYPQZqNjUK5LBFdHqD4GJhR2j0UfPKgr31ge28BGMgxUpSDKZX/a6he3cqsLlEYi3iU6Z2ax9XK2v/K1K+wpDKgglEda4dhmA/4ODXXXrfY4HJjPRMrDii+D6YxdAYppWrC8b5fAxkwmdjNbAEdTEGH0y2m8mijdwM4k3bQz5D5BtkCjdE8MC+QOZRjeQdTqEHqVSzCQEgI34xaMDqX6VJM4UT+FEJLehLxA58tQA4Eul2OXHvB0aJ6k5wxiacC7rw5AgMBAAECggEAcbseDACY2MtzK+BTIrnwWc9THpYmAS5Are6AqYTf6Yj2kEU9d+hMwhK3yfkXiOKPZzfVew9YYUFWGPe9crnu+MyXJe7DiyLR2bXvXItlvP5h3O9gIEnjK1jzCFb8/KCgDDwPpMfaOUMlblKY0j4CIrAuQrWI76gL/j/RuWLONoQq+5fg/7cEsFqwR+9FMFzkbw+RgQV24rrdQKHGpw0yrVvUaRfZa/B69KBnvGjEIHc1mCc9GlSKOu7LZS8B6w9DZ++WZw69AXUiqFb4PbWoO/nu5Z4E60K2HyDFSFlPjzSkDNHPxDB4+r+hXDHbb7LWtBBxnHHVrdxm+S/7QGqTsQKBgQD1AwXnJFFJ4iR5r4Rt2744HQnYBgqBZ8ghhrknFB5clNoB34+G9r6Zi26BPBaN36mOJ1fdnnfHNQLtB63KclLh49vfHAFIujrxakfeRnvqHz+QZBXopQSmYev3oTpOdgbh0XjeklfKddH8Lvf2owSi8D+UdOFHzOEepiqHRK/F1QKBgQDsmuxMZGHUNR1V3BYy8FbCWgR3uESa7iOd7ri6+Ve5FLXfWZSLVDMweMHhn1RbYRSVilCTdCxFLBnvVoyPr4yxSn2pfk6GZFzaim0dCZyi8YMk1FjQ+tg8Q3wYBcKDoQ/DXTfW4OInykuS/QMdVcLmr7JqPse5F+BjKnx7Jnma1QKBgARH1j2Qk97/lXWOzHiC41LlpvtgN6TFJGj5ipiVMGabrydjOYW5H+Fc30RgwWAfLT4vj8hucVdIpNFxVeb4klwh+ABw49DaeBcprTHD93xCqYCjTwKuh2NEyLOd3H/sbfhaCYuR8Pi3kECgrXJgrL8QBXxZgmoXuUMo0gtk9tE1AoGBAOAaVRp+MdMHhAOg9D3HOsXW8Uhb9k8wo/eg9sPSC+632RP2CyZ02A9fMXR8ry/mIdMKMQuZC51xCheRyI0H36DFR4TUp5fPU8uDNZo9Umlbi7XEk2NNVKav3Mf8HKMEWKPYlV0nn83EZBSTJPISGwrY+4p6cD22icgjo8gZRzEJAoGBAM4Qhl4e0xqOoY0Kp3yxgbnrkWGlAYvfB5LGu7J1zX882v3fHzeAisk8OB7ueqAHBHh2tW35XSb6edK2oWsvI3AXCVDTZxVHR1Sp9TdADAf3IFcMdNxPxSRFLi2zz+VfwR+47nyfbVtprwQHz631SxxlYemnyCk6DLys8vWgZzck
+  alipayPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxYO5gg5mA0cS8cjZ2AGv/TeRArzzy1KmZ2v0lypaSoEGobSZSFCFzcqn2rEhwAmTAberubDRXwZ8pzIsP3GIgS4Lb2aPggF5BcVflgYfZNxNaYA9PsgKRHnGw0JuXF9VwxN3mJ/ljB2nIXmM9OiyVph1mTC4EcIY5R5rMrxczQRr+4yeghEqIstO4kuRbuH4wO5TKRsLfjtAIF7sunnPskyceeEPd7pb+TdmoUq7nwiSBTqrM+ycPjtoPvJma83sIzO2DqzpZCLib+c42rM9WZAA4Z/KyNzo+mo8mVNxV7ihNte9IsK4SNfKpE00YAQBnp5PwhET/+mdQIeBPBZFTQIDAQAB
+  notifyUrl:
+

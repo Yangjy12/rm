@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.rm.mapper.ShopCarMapper">
+    <select id="selAll" resultType="com.example.rm.entity.ShopCar">
+        SELECT  goods.id AS gid, goods.prize, goods.name AS gname, goods.img, shop_car.buynum,shop_car.id
+        FROM goods
+        JOIN shop_car ON goods.id = shop_car.gid
+        <where>
+            <!-- 你可以在这里添加额外的查询条件 -->
+            ${ew.sqlSegment}
+        </where>
+    </select>
+</mapper>

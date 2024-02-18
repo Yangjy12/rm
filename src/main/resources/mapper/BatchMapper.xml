@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.rm.mapper.BatchMapper">
+
+    <select id="selectPage" resultType="com.example.rm.entity.Batch">
+        SELECT batch.*, goods.name AS gname
+        FROM batch
+        JOIN goods ON batch.gid = goods.id
+        <where>
+            <!-- 你可以在这里添加额外的查询条件 -->
+            ${ew.sqlSegment}
+        </where>
+    </select>
+</mapper>
